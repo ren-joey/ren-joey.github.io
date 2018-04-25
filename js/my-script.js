@@ -155,13 +155,13 @@ $(function () {
 
     /* --- preloader damaged --- */
     $(window).on('load', function () {
-        pl.removeClass('active');
-        fi.removeClass('first-image');
         setTimeout(
+          pl.removeClass('active');
+          fi.removeClass('first-image');
             function(){
                 c1.add(eh4).addClass('active');
                 pl.fadeOut('slow');
-            }, 2000);
+            }, 5000);
         $('body').css({'overflow':'visible'});
     });
 
