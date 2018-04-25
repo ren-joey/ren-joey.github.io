@@ -162,7 +162,7 @@ $(function () {
                 c1.add(eh4).addClass('active');
                 pl.fadeOut('slow');
             }, 2000);
-        $('body').css({'overflow':'visible'});
+        $('body').css({'overflow': 'visible'});
     });
 
     /* --- PAGE TRANSITIONS --- */
